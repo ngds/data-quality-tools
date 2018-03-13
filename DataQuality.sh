@@ -8,7 +8,6 @@ echo "NGDS Resource Links Data Source Quality Check--------------------------  `
 
 SCRIPTHOME="/var/lib/pgsql"
 cd $SCRIPTHOME
-
 shopt -s extglob
 if [ "$1" == "-h" ]
 then
