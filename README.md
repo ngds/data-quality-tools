@@ -1,5 +1,5 @@
 ## Data-quality-tools
-These are system level scripts that check resource links and data base integrity
+These are system  and database scripts that check resource links and data base integrity.
 
 ### Resource Data Quality Check Script
 
@@ -37,3 +37,9 @@ Occasionally the Clear Button in the HArvest Admin stops functioning, usually ca
 ### Duplicate Datasets
 
 Duplicated data can take a several forms.  During the harvest process, there are conditions that allow duplicate data to be saved.  Checcks are made for duplicate GUIDS in the harvest, in the package (as found in package_extra)
+
+### Resource Link Quality Reports
+
+Detailed and summary reports for the DataQuality check (resource links)
+
+
