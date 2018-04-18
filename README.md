@@ -8,7 +8,7 @@ This is a post harvest automated QC tool
 Script: DataQuality.sh
 Checks by header
 
-Checks each active resource in the ckan_default database- resource, resource_group table by using the curl header.
+Checks each active resource in the ckan_default database- resource, resource_group table by using the curl header. This version only runs against links that are not map seervers. 
 
 CURL Timeout - 5 seconds 
 
@@ -28,6 +28,19 @@ Synopsis:  DataQuality -l --limit [#]  -o --offset [#] -w -p
     -o,--offset   Set the starting record of resource link to be checked  
     -w,--webservice        Check WMS and WFS records  
     -p,--primaryresource   Check primary dataset resource record"  
+
+### Resource Data Quality Check - Links that Timeout
+
+A number of resources are either large, or ther server responsee is slow.  A second set of scripts are applied after the initial run
+to capture an accurate assessment of slow links. These script read the previous DQ run and identify slow links for reprocessing:
+
+DataQuality-timeout.sh
+
+### Resource Data Quality Check - Map Services
+
+The process of identifying correct map service data has greater compelxity than the standard link check. 
+
+/usr/sbin/DataQuality-MapServices.sh
 
 ### Repair Scripts
 
