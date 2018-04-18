@@ -29,6 +29,11 @@ Synopsis:  DataQuality -l --limit [#]  -o --offset [#] -w -p
     -w,--webservice        Check WMS and WFS records  
     -p,--primaryresource   Check primary dataset resource record"  
 
+### Repair Scripts
+
+A number of links that have broken can be repaired by script.  The repairResource-osti.sh fixes approximately 6400 link 
+and should be re-run after a harvest and data quality check.
+
 ### SQL Tools
 
 #### Clear Harvest
