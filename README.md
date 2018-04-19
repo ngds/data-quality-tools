@@ -50,7 +50,7 @@ and should be re-run after a harvest and data quality check.
 ### SQL Tools
 
 #### Clear Harvest
-Occasionally the Clear Button in the HArvest Admin stops functioning, usually caused by some tables getting to large, or when database maintenance has not been performed on affected tables. Clear harvest SQl allows you to perform steps individually.
+Occasionally the Clear Button in the Harvest Admin stops functioning, usually caused by some tables getting to large, or when database maintenance has not been performed on affected tables. Clear harvest SQl allows you to perform steps individually.
 
 ### Duplicate Datasets
 
@@ -59,5 +59,9 @@ Duplicated data can take a several forms.  During the harvest process, there are
 ### Resource Link Quality Reports
 
 Detailed and summary reports for the DataQuality check (resource links)
+
+### Traffic Stats
+
+Nightly check sums the web activity and identifies total counts and valid data requests, data logged to database for long term analytics.
 
 
