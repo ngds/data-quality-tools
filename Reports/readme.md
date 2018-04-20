@@ -1,9 +1,9 @@
 
-This is an activity log of data checks performed for the FY 18 2nd quarter.
+
 
 # Data Quality Processing
 
-These data quality tools were executed and analyzed after a complete reharvest of all NGDS harvest sources from in March and early April of 2018.
+This is an activity log of data checks performed for the FY 18 2nd quarter.  These data quality tools were executed and analyzed after a complete reharvest of all NGDS harvest sources from in March and early April of 2018.
 
 April 11, 2018 - Initial Data Quality - executed check on static link (pdf, csv, txt, images, etc -- excluding map servers) resource records were process - total of 69466 resource links identified.  Of those initially 4800 were either returning errors or not responding.  
 April 12, 2018 - Approximately 8000 reccords from osti.gov, which responded with redirect repsonse (301, 302 normally a good response) were in fact errors. The errors were corrected by script in NGDS (meaning that the source metadata is still in error). 1600 errors remain.
