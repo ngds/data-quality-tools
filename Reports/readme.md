@@ -1,4 +1,6 @@
 
+This is an activity log of data checks performed for the FY 18 2nd quarter.
+
 # Data Quality Processing
 
 These data quality tools were executed and analyzed after a complete reharvest of all NGDS harvest sources from in March and early April of 2018.
@@ -14,4 +16,5 @@ April 17, 2018 - Map Server Link - There are a total of 2029 map service links, 
 
 Some of the datasets can be programmatically corrected.  These corrections must be reapplied after each harvest. There are a number of  obsolete that will be deleted, and there are several thousand that will require manual update. 
 
+April 20 - Data duplication checks verified that no duplicate GUIDS were uploaded, but that approximate 9500 records (from different sources) have duplicate titles.
 
